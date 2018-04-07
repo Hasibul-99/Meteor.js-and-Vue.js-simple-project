@@ -1,7 +1,8 @@
 // Libs
 import { Meteor } from 'meteor/meteor';
 import Vue from 'vue';
-import { Accounts } from 'meteor/accounts-base'
+import { Accounts } from 'meteor/accounts-base';
+import routerFactory from '/imports/routes.js';
 
 Accounts.ui.config({
   passwordSignupFields: 'USERNAME_AND_EMAIL',
